@@ -4,5 +4,5 @@ API Guide
 Model Class
 -----------
 
-.. automodule:: azmailer.<module_name>
-   :members:
+.. automodule:: azmailer.azmailer
+   :members: AzMailer

@@ -1,1 +1,2 @@
-azure-communication-email==1.0.*
+azure-communication-email ==1.0.*
+pathutility == 1.0.*
