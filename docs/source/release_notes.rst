@@ -9,8 +9,11 @@ Relase Notes
    * - Version
      - Authors
      - Release Notes
-   * - <version>
+   * - 1.0.1
      - anglisanosa AI team
-     - Here the comments of the release.
+     - Hotfix documentation
+   * - 1.0.0
+     - anglisanosa AI team
+     - Azmailer is a simple email sender for python.
    
 

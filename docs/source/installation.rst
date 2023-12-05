@@ -33,7 +33,7 @@ Configuration
 
 4. add the sender/domain to the email service
 
-.. image:: _static/connect_the_domain.jpg
+.. image:: _static/connect_the_domain.JPG
    :alt: Create a new Azure Comunication Service
    :width: 100%
 

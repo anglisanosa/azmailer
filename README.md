@@ -10,7 +10,7 @@ Inspired by the Azure Communication Services documentation [here](https://learn.
 To install azmailer, simply use pip:
 
 ```bash
-pip install 'azmailer'
+pip install azmailer
 
 ```
 
