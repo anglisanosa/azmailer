@@ -5,36 +5,6 @@ Prerequisites
 -------------
 
 
-
-.. table::  Table example.
-
-            +--------+---------+-----+-----------+-----------+----------+
-            |                        |        Linux architectures       |
-            |                        +-----------+-----------+----------+
-            |     Python version     |   x86_64  |  aarch64  | arm32v7l |
-            +========================+===========+===========+==========+
-            |           3.7          | on demand | on demand |    Yes   |
-            +------------------------+-----------+-----------+----------+
-
-The SDK needs some packages to be installed in order to be able to run:
-
-.. table::  SDK's requirements.
-
-            +----------------------+--------------+
-            | Package              | Version      |
-            +======================+==============+
-            | numpy                | >= 1.16.3    |
-            +----------------------+--------------+
-            | opencv-python        | >= 3.4.16.59 |
-            +----------------------+--------------+
-            | rknn / rknnlite      | >= 1.7.1     |
-            +----------------------+--------------+
-            | rockchipinferenceapi | >= 0.3.1     |
-            +----------------------+--------------+
-
-.. note:: **rockchipinferenceapi** will be provided by anglisanosa in wheel format.
-
-
 SDK installation via pip
 ------------------------
 
@@ -43,3 +13,28 @@ To install azmailer using pip
 .. code-block:: console
 
    (.venv) $ pip install azmailer
+
+Configuration
+=============
+
+1. Create a new Azure Comunication Service (ACS)
+
+.. image:: _static/comunication_services.jpg
+   :alt: Create a new Azure Comunication Service
+   :width: 100%
+
+2. Create a new Email Comunication Service
+
+.. image:: _static/domain.jpg
+   :alt: Create a new Azure Comunication Service
+   :width: 100%
+
+3. create a sender/domain email on your email comunication Service
+
+4. add the sender/domain to the email service
+
+.. image:: _static/connect_the_domain.jpg
+   :alt: Create a new Azure Comunication Service
+   :width: 100%
+
+5. take note of the connection string (on ACS) and the sender email (on email service)
